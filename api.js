@@ -116,3 +116,8 @@ router.get("/book/:id", (req, res) => {
         res.send(book);
     });
 });
+
+//api for testing if this project works.
+router.get("/hello", (req, res) => { 
+	res.send("Hello World");
+});
